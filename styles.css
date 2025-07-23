@@ -90,8 +90,8 @@ body {
 
 .card-image-container {
     flex-shrink: 0;
-    width: 250px;
-    height: 180px;
+    width: 380px;
+    height: 320px;
     overflow: hidden;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -401,4 +401,15 @@ body {
     .button-container {
         justify-content: center;
     }
+}
+
+.title-proyect{
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    font-weight: bold;
+    background: linear-gradient(135deg, #c084fc, #a855f7, #7c3aed, #5b21b6);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
